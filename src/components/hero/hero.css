@@ -1,0 +1,83 @@
+.info-left {
+  min-height: 80px;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  border: 2px solid darkgray;
+  border-radius: 50%;
+  padding: 2px;
+}
+.info span.icon-verified {
+  color: #007bff;
+}
+.hero-text-color h1 {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+  transition: 0.3s all;
+  color: var(--title);
+}
+.hero-text-color p {
+  line-height: 1.5;
+  padding: 10px 0;
+  font-size: 16px;
+}
+.DownCV {
+  background-color: var(--bgNav);
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  padding: 5px 15px;
+  font-size: 1rem !important;
+  font-weight: 600;
+}
+@media (max-width: 1200px) {
+  .info-animation {
+    display: none;
+  }
+  .hero-section > div {
+    padding: 20 0 !important;
+    flex-grow: 0.5;
+    /* text-align: center !important; */
+  }
+  .hero-section {
+    padding: 0 5px !important;
+    margin: 0 5px !important;
+  }
+  .info-left {
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .hero-text-color {
+    text-align: center !important;
+  }
+  .hero-links {
+    justify-content: center !important;
+  }
+}
+@media (max-width: 991px) {
+  .hero-text-color h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    margin: 0 !important;
+  }
+  .hero-text-color h1 {
+    line-height: 1.5;
+    font-size: 1.6rem;
+  }
+  .Hero-Icon a {
+    font-size: 25px !important;
+  }
+  .Hero-Icon a.DownCV {
+    font-size: 0.8rem !important;
+    padding: 8px;
+  }
+  .info {
+    padding: 5px !important;
+  }
+}

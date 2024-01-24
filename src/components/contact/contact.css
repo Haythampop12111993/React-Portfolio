@@ -1,0 +1,108 @@
+.contact-header-icon {
+  color: var(--title);
+}
+.contact-header p {
+  font-size: 18px;
+  color: var(--subtitle);
+  text-align: start;
+  font-weight: 600;
+}
+.contact-form-and-img label {
+  color: var(--subtitle);
+  font-size: 18px;
+}
+.contact-form-and-img input,
+.contact-form-and-img textarea {
+  background-color: var(--bgNav);
+  border: 2px solid var(--border);
+}
+/* .contact-form-and-img input:focus {
+  background-color: var();
+} */
+.contact-form-and-img textarea {
+  height: 250px;
+}
+.contact-form-and-img button {
+  background-color: var(--bgNav);
+  border: 2px solid var(--border);
+  padding: 10px 20px;
+  color: var(--subtitle);
+  font-weight: bold;
+}
+
+.contact-form-and-img button:hover {
+  border: 2px solid var(--border);
+  color: var(--title);
+  background-color: var(--bgNav);
+}
+.successfully {
+  padding: 20px 0 10px 0;
+  text-align: center;
+  color: var(--title);
+  font-size: 20px;
+  font-weight: 600;
+}
+@media (min-width: 1200px) {
+}
+@media (max-width: 1200px) {
+  /* .contact-header p {
+    font-size: 16px;
+  } */
+  .contact-header-icon {
+    justify-content: center !important;
+  }
+  .contact-header p {
+    text-align: center;
+  }
+  .contact-form-and-img textarea {
+    height: 200px;
+  }
+  .contact-form-and-img .btn-div {
+    justify-content: center !important;
+    margin: 20px 0 50px 0;
+  }
+  .contact-form-and-img textarea {
+    margin: 20px 0;
+  }
+  .contact-animation {
+    display: none !important;
+  }
+}
+@media (max-width: 991px) {
+  .contact-header-icon {
+    justify-content: center !important;
+  }
+  .contact-header p {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .contact {
+    padding: 5px !important;
+    margin: 5px !important;
+  }
+  .contact-header-icon {
+    justify-content: center !important;
+  }
+  .contact-header p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .contact-form-and-img label {
+    font-size: 16px;
+  }
+  .successfully {
+    font-size: 14px;
+  }
+  .contact-from label {
+    font-size: 14px;
+  }
+  .submit-btn {
+    padding: 10px 20px !important;
+    font-size: 14px;
+  }
+  .contact-form-and-img textarea {
+    height: 150px;
+  }
+}

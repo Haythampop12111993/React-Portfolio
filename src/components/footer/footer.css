@@ -1,0 +1,18 @@
+.footer ul li a {
+  color: var(--subtitle);
+  font-size: 16px;
+  padding: 0 10px;
+}
+.footer p {
+  color: var(--subtitle);
+  font-weight: 600;
+}
+.footer ul li a:hover {
+  color: var(--title);
+}
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+}

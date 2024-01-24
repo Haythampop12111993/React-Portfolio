@@ -1,0 +1,106 @@
+.main div ul li {
+  padding: 20px 10px;
+  background-color: var(--bgNav);
+  margin: 5px 0;
+  border: 2px solid var(--border);
+  color: var(--subtitle);
+  border-radius: 10px;
+  transition: 0.2s all;
+  cursor: pointer;
+  font-size: 16px;
+}
+.main-ul {
+  padding: 20px 40px 0 0;
+}
+.main div ul li:hover {
+  color: var(--title);
+}
+.card {
+  border: 2px solid var(--border) !important;
+  color: var(--title);
+  transition: 0.3s all;
+  position: unset !important;
+}
+.card:hover {
+  box-shadow: 0 0 10px var(--blue);
+  transform: rotate(1deg);
+  border: 2px solid var(--blue) !important;
+}
+.card-body {
+  background-color: var(--bgNav);
+}
+.card-text {
+  text-transform: capitalize;
+}
+.card-body p {
+  color: var(--subtitle);
+  font-weight: 600;
+}
+.card-icons .right-icon {
+  color: var(--subtitle);
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.card-icons .right-icon .icon-chain:hover,
+.card-icons .right-icon .icon-github:hover {
+  color: var(--title);
+}
+.card-icons .left-icon {
+  color: var(--success-color);
+  cursor: pointer;
+  font-weight: 600;
+}
+.card-icons .left-icon:hover {
+  color: var(--blue);
+}
+/* .card-icons .left-icon div:first-child:hover .icon-arrow-right {
+  animation: arrowMove 0.5s infinite;
+  color: white;
+} */
+.card-icons .left-icon:hover .icon-arrow-right {
+  animation: arrowMove 0.5s infinite;
+}
+.active {
+  color: var(--title) !important;
+  border: 2px solid var(--success-color) !important;
+}
+@keyframes arrowMove {
+  0% {
+    margin-right: 0;
+  }
+  100% {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .main div ul li {
+    font-size: 13px;
+  }
+}
+@media (max-width: 991px) {
+  .main {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 5px;
+  }
+  .main-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .main-ul li {
+    /* width: 3px !important; */
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-ul li {
+    padding: 5px 10px !important;
+    font-size: 12px !important;
+    min-width: 100px;
+  }
+}

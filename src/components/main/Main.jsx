@@ -55,11 +55,11 @@ function Main() {
               </li>
               <li
                 onClick={() => {
-                  hundelFilter("React");
+                  hundelFilter("React&Next.js");
                 }}
-                className={isActive == "React" ? "active " : null}
+                className={isActive == "React&Next.js" ? "active " : null}
               >
-                React
+                React & Next.js
               </li>
               <li
                 onClick={() => {

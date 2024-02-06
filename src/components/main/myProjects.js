@@ -63,10 +63,20 @@ const myProgectsArry = [
     link: "https://react-portfolio-b1c2e.web.app/",
     github: "https://github.com/Haythampop12111993/React-Portfolio.git",
 
-    category: "React",
+    category: "React&Next.js",
   },
   {
     id: 8,
+    title: "Ecommerce Next.js And Strapi",
+    description: "Project Ecommerce Next.js And Strapi ",
+    img: "Next.js-Ecommerce.png",
+    link: "https://github.com/Haythampop12111993/Ecommerce-Next.js.git",
+    github: "https://github.com/Haythampop12111993/Ecommerce-Next.js.git",
+
+    category: "React&Next.js",
+  },
+  {
+    id: 9,
     title: "BackEnd With Node.js",
     description: "Project BackEnd With Node.js And Express",
     img: "Node.js-NTI.png",
@@ -76,7 +86,7 @@ const myProgectsArry = [
     category: "Node.js",
   },
   {
-    id: 9,
+    id: 10,
     title: "Ecommerce BackEnd With Node.js",
     description:
       "Project Ecommerce BackEnd API With Node.js And Express And MongoDB",

@@ -35,8 +35,8 @@ function Hero() {
             Software Developer , Full Stack.
           </motion.h1>
           <p className="my-3 ">
-            I`m Haytham Ali . Entry Level Full Stack Developer with knowledge of
-            HTML, CSS, JavaScript, Angular, React ,Node.js ,Express ,MongoDB
+            I`m Haytham Ali . Full Stack Developer with knowledge of HTML, CSS,
+            JavaScript, Angular, React , Next.js ,Node.js ,Express ,MongoDB
             seeking to use technical proficiency and creativity to develop
             engaging user experiences and advance in a professional career.
           </p>
